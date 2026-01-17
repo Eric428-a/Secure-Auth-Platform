@@ -1,4 +1,4 @@
-![Banner 1](https://placehold.co/1200x300/22c55e/ffffff?text=Secure+Auth+Platform+Banner&font=comfortaa&bold)
+![Banner 1](https://placehold.co/1200x300/22c55e/ffffff?text=Secure+Auth+Platform+Documentation&font=comfortaa&bold)
 
 <h1 align="center" style="font-family:Comfortaa, sans-serif;">
   <span style="color:#16a34a;">Secure</span>-<span style="color:#16a34a;">Auth</span>-<span style="color:#16a34a;">Platform</span>
@@ -97,9 +97,10 @@
 
 ### 📞 Contact
 
-For questions or direct chat, reach out via:  
-**WhatsApp:** [+254702641191](https://wa.me/254702641191)  
-**Email:** [ericmwaniki2004@gmail.com](mailto:ericmwaniki2004@gmail.com)  
+For questions or direct chat, reach out via:
+
+- 🟢 **WhatsApp:** [+254702641191](https://wa.me/254702641191)  
+- ✉️ **Email:** [ericmwaniki2004@gmail.com](mailto:ericmwaniki2004@gmail.com)  
 
 <p align="center" style="font-family:Comfortaa, sans-serif;">
   <em>Structured roadmap for learning, development, and real-world authentication deployment</em>
