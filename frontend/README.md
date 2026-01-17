@@ -1,6 +1,6 @@
 # Secure Auth Frontend
 
-![Project Banner](https://via.placeholder.com/1200x300?text=Haumena+Auth+Frontend)
+![Project Banner](https://placehold.co/1200x300/004422/ffffff?text=Haumena+Auth+Frontend&font=roboto)
 
 ## Overview
 
