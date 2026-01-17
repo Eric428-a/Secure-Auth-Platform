@@ -1,6 +1,6 @@
 # Secure Auth Frontend
 
-![Project Banner](https://placehold.co/1200x300/004422/ffffff?text=Secuure+Auth+Frontend&font=roboto)
+![Project Banner](https://placehold.co/1200x300/004422/ffffff?text=Secure+Auth+Frontend&font=roboto)
 
 ## Overview
 
