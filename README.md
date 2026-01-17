@@ -99,15 +99,16 @@
 
 For questions or direct chat, reach out via:
 
-<p align="center">
-  <a href="https://wa.me/254702641191" target="_blank">
-    <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/whatsapp.svg" alt="WhatsApp" width="40" style="margin-right:10px;">
+<p align="center" style="margin-top: 10px; margin-bottom: 10px;">
+  <a href="https://wa.me/254702641191" target="_blank" style="text-decoration:none;">
+    <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/whatsapp.svg" alt="WhatsApp" width="50" style="margin:10px; fill:#25D366;">
   </a>
-  <a href="mailto:ericmwaniki2004@gmail.com">
-    <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/gmail.svg" alt="Email" width="40">
+  
+  <a href="mailto:ericmwaniki2004@gmail.com" target="_blank" style="text-decoration:none;">
+    <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/gmail.svg" alt="Email" width="50" style="margin:10px; fill:#D44638;">
   </a>
 </p>
 
-<p align="center" style="font-family:Comfortaa, sans-serif;">
+<p align="center" style="font-family:Comfortaa, sans-serif; margin-top:10px;">
   <em>Structured roadmap for learning, development, and real-world authentication deployment</em>
 </p>
