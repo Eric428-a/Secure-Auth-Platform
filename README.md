@@ -99,8 +99,14 @@
 
 For questions or direct chat, reach out via:
 
-- 🟢 **WhatsApp:** [+254702641191](https://wa.me/254702641191)  
-- ✉️ **Email:** [ericmwaniki2004@gmail.com](mailto:ericmwaniki2004@gmail.com)  
+<p align="center">
+  <a href="https://wa.me/254702641191" target="_blank">
+    <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/whatsapp.svg" alt="WhatsApp" width="40" style="margin-right:10px;">
+  </a>
+  <a href="mailto:ericmwaniki2004@gmail.com">
+    <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/gmail.svg" alt="Email" width="40">
+  </a>
+</p>
 
 <p align="center" style="font-family:Comfortaa, sans-serif;">
   <em>Structured roadmap for learning, development, and real-world authentication deployment</em>
