@@ -1,7 +1,7 @@
 ![Banner 1](https://placehold.co/1200x300/4b0082/ffffff?text=Secure+Auth+Platform+Banner\&font=roboto\&bold)
 
 <h1 align="center">
-  <span style="color:#22c55e;">Secure</span>-<span style="color:#6366f1;">Auth</span>-<span style="color:#8b5cf6;">Platform</span>
+  <span style="color:#22c55e;">Secure</span>-<span style="color:#22c55e;">Auth</span>-<span style="color:#22c55e;">Platform</span>
 </h1>
 
 <p align="center">
@@ -30,19 +30,19 @@
 
 ![Banner 4](https://placehold.co/1200x200/4b0082/ffffff?text=System+Architecture\&font=roboto\&bold)
 
-### 🔵 <span style="color:#3b82f6;">2. System Architecture Overview</span>
+### 🔵 <span style="color:#22c55e;">2. System Architecture Overview</span>
 
 * <em>2.1</em> High-level architecture diagram
 * <em>2.2</em> End-to-end authentication flow
 
-  * <span style="color:#6366f1;"><em>UI → API → Email → Database → Verified State</em></span>
+  * <span style="color:#22c55e;"><em>UI → API → Email → Database → Verified State</em></span>
 * <em>2.3</em> Security-first design philosophy
 * <em>2.4</em> Separation of concerns explained
 * <em>2.5</em> Why this architecture scales
 
 ![Banner 5](https://placehold.co/1200x200/6a0dad/ffffff?text=Technology+Stack\&font=roboto\&bold)
 
-### 🟣 <span style="color:#8b5cf6;">3. Technology Stack</span>
+### 🟣 <span style="color:#22c55e;">3. Technology Stack</span>
 
 * <em>3.1</em> Backend technologies
 * <em>3.2</em> Frontend technologies
@@ -61,7 +61,7 @@
 
 ![Banner 7](https://placehold.co/1200x200/6a0dad/ffffff?text=Backend+Deep+Dive\&font=roboto\&bold)
 
-### 🔵 <span style="color:#3b82f6;">5. Backend Deep Dive (FastAPI)</span>
+### 🔵 <span style="color:#22c55e;">5. Backend Deep Dive (FastAPI)</span>
 
 * <em>5.1</em> FastAPI application lifecycle
 * <em>5.2</em> Environment configuration and secrets management
@@ -73,7 +73,7 @@
 
 ![Banner 8](https://placehold.co/1200x200/4b0082/ffffff?text=Frontend+Deep+Dive\&font=roboto\&bold)
 
-### 🟣 <span style="color:#8b5cf6;">6. Frontend Deep Dive (React)</span>
+### 🟣 <span style="color:#22c55e;">6. Frontend Deep Dive (React)</span>
 
 * <em>6.1</em> Application entry point and routing
 * <em>6.2</em> Page-level components
@@ -81,7 +81,3 @@
 * <em>6.4</em> Authentication service layer
 * <em>6.5</em> Form validation and UX feedback
 * <em>6.6</em> Protected routes and session handling
-
-<p align="center">
-  <em>This enhanced document now includes multiple colorful banners and graphics for a visually engaging GitHub README experience.</em>
-</p>
