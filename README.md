@@ -10,6 +10,8 @@
 
 ![Banner 2](https://placehold.co/1200x300/6a0dad/ffffff?text=Learning+and+Development\&font=roboto\&bold)
 
+
+
 ---
 
 ## 📘 <span style="color:#22c55e;">Table of Contents</span>
