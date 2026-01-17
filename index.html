@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Secure Auth App</title>
+  <style>
+    /* Reset & base */
+    * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', sans-serif; }
+    body, html { height: 100%; width: 100%; overflow-x: hidden; }
+
+    /* Background gradient & animated stars */
+    body {
+      background: radial-gradient(ellipse at bottom, #0d0d0d 0%, #111 100%);
+      color: #ffffff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      cursor: pointer;
+      position: relative;
+    }
+
+    .stars {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background: transparent;
+      overflow: hidden;
+      z-index: 0;
+    }
+
+    .star {
+      position: absolute;
+      width: 2px;
+      height: 2px;
+      background: #ffffff;
+      border-radius: 50%;
+      animation: twinkle 3s infinite;
+      opacity: 0.8;
+    }
+
+    @keyframes twinkle {
+      0%, 100% { opacity: 0.8; transform: scale(1); }
+      50% { opacity: 0.2; transform: scale(0.5); }
+    }
+
+    /* Content wrapper */
+    .container {
+      position: relative;
+      z-index: 1;
+      max-width: 600px;
+      text-align: center;
+      padding: 40px;
+      background: rgba(0,0,0,0.6);
+      border-radius: 12px;
+      box-shadow: 0 0 20px rgba(0,255,136,0.4);
+    }
+
+    h1 {
+      color: #00ff88;
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 1rem;
+      margin-bottom: 25px;
+      line-height: 1.4;
+    }
+
+    /* Buttons */
+    .btn {
+      display: inline-block;
+      margin: 10px;
+      padding: 12px 28px;
+      font-size: 1rem;
+      color: #0d0d0d;
+      background-color: #00ff88;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      text-decoration: none;
+    }
+
+    .btn:hover {
+      background-color: #00cc66;
+      transform: translateY(-2px);
+      box-shadow: 0 5px 15px rgba(0,255,136,0.4);
+    }
+
+    /* Footer */
+    footer {
+      position: absolute;
+      bottom: 15px;
+      width: 100%;
+      text-align: center;
+      font-size: 0.8rem;
+      color: #888;
+      z-index: 1;
+    }
+  </style>
+</head>
+<body onclick="redirectRepo(event)">
+
+  <div class="stars" id="stars"></div>
+
+  <div class="container">
+    <h1>Secure Auth App</h1>
+    <p>Login, register, reset password, and verify your email securely. Built for modern authentication needs.</p>
+
+    <div class="buttons">
+      <a class="btn" href="https://github.com/Eric428-a/Secure-Auth-Platform">Login</a>
+      <a class="btn" href="https://github.com/Eric428-a/Secure-Auth-Platform">Register</a>
+      <a class="btn" href="https://github.com/Eric428-a/Secure-Auth-Platform">Dashboard</a>
+      <a class="btn" href="https://github.com/Eric428-a/Secure-Auth-Platform">Reset Password</a>
+      <a class="btn" href="https://github.com/Eric428-a/Secure-Auth-Platform">Verify Email</a>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2026 Secure Auth App. All rights reserved. | <a href="https://github.com/Eric428-a/Secure-Auth-Platform" style="color:#00ff88;">Privacy Policy</a> | <a href="https://github.com/Eric428-a/Secure-Auth-Platform" style="color:#00ff88;">Terms</a>
+  </footer>
+
+  <script>
+    // Redirect anywhere user clicks to GitHub repo
+    function redirectRepo(event) {
+      window.location.href = "https://github.com/Eric428-a/Secure-Auth-Platform";
+    }
+
+    // Generate some random stars
+    const starsContainer = document.getElementById('stars');
+    for(let i=0;i<80;i++){
+      const star = document.createElement('div');
+      star.className = 'star';
+      star.style.top = Math.random() * 100 + '%';
+      star.style.left = Math.random() * 100 + '%';
+      star.style.width = Math.random() * 3 + 1 + 'px';
+      star.style.height = star.style.width;
+      star.style.animationDelay = Math.random() * 3 + 's';
+      starsContainer.appendChild(star);
+    }
+  </script>
+
+</body>
+</html>
