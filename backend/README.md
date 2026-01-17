@@ -1,3 +1,5 @@
+![Project Banner](https://placehold.co/1200x300/4b0082/ffffff?text=Secure+Auth+Frontend\&font=roboto\&bold)
+
 # Secure User Authentication Backend (FastAPI + MongoDB) – Developer-Focused Documentation
 
 ## 1. Introduction
@@ -416,3 +418,4 @@ MIT License. Free to use, modify, and deploy.
 ---
 
 This documentation serves as a **complete developer guide**, providing setup, usage, integration, AI/ML considerations, and cybersecurity best practices, all in a single, professional, GitHub-ready reference.
+
